@@ -5,9 +5,10 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import java.util.Properties;
 
+
 public class HandleMail {
 
-    void sendMail(){
+    public void sendMail(){
 
         //host : gmail is smtp :
         String host  = "smtp.gmail.com";
